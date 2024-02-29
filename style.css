@@ -1,0 +1,257 @@
+/* section1  */
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.cameraicon {
+    color: black;
+    font-size: 2rem;
+    margin-left: 40px; 
+}
+p {
+    color: black;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family:'roboto';  
+    display: inline; 
+    margin: 40px;
+}
+.plusicon {
+    color: black;
+   font-size: 2rem;  
+   display: inline;  
+   margin: 40px;
+}
+.hearticon {
+    font-size: 2rem;
+    display: inline;
+    font-size: 2rem;
+    margin: 40px;
+}
+.messageicon {
+    color: black;
+    display: inline;
+    font-size: 2rem ;
+    margin: 40px;
+    background-color: white;
+}
+/* section2  */
+.story1 {
+    height: 100px;
+    width: 100px;
+    background-color:gray;
+    background-image: url("https://imgs.search.brave.com/_ryzcCBVW4Ikkt6X095kutIPjMupFiJ889IjK_k-WDo/rs:fit:860:0:0/g:ce/aHR0cDovL3d3dy53/aGF0c2FwcGltYWdl/cy5pbi93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8xMi9wcm9m/aWxlLXBpY3R1cmUt/Ym95LWF0dGl0dWRl/LmpwZw");
+    background-size:cover;
+    border: 3px solid red;
+    border-radius: 50%;
+    margin-top: 50px;   
+}
+.story2 {
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid red;
+    border-radius: 50%;
+    background-image: url("https://pbs.twimg.com/profile_images/1562753500726976514/EPSUNyR3_400x400.jpg");
+    background-size: cover; 
+    margin-top: 50px;   
+}
+.story3 {
+    height: 100px;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 50%;
+    margin-top: 50px;
+   background-image: url("https://imgs.search.brave.com/eMIwjr1y-rR_Wdi_AMeaPGumFbwwHF_JdYV3xcXZnT8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29taW5nc29vbi5u/ZXQvd3AtY29udGVu/dC91cGxvYWRzL3Np/dGVzLzMvZ2FsbGVy/eS90aGUtYm95cy9i/b3lzcG9zdGVyLmpw/Zw");
+    background-size:cover;  
+}
+.story4 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid red;
+    border-radius: 50%;
+    margin-top: 50px;
+    background-image: url("https://imgs.search.brave.com/qP4-H_tAemODmdEWfXu_nUXyBKYX8khGXqqXccXoCqM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzBhL2Uy/LzM4LzBhZTIzODVk/YWI1MTM5MWNiZmRj/ZjdkOWM5YTg4N2Rh/LmpwZw");
+    background-size: cover;
+}
+.story5{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid red;
+    border-radius: 50%;
+    background-image: url("https://imgs.search.brave.com/hAhLT5PQDMnX-1V7I-LGDLNAivfF-6Ox38z3kUl7x0A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Q5Lzk5/LzBjL2Q5OTkwY2Yx/MWVjZTY1MWU3YTJh/M2FkOWMwZjBjNGQ1/LmpwZw");
+    background-size: cover;
+    margin-top: 50px;
+}
+.story6{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid red;
+    border-radius: 50%;
+    background-image: url("https://imgs.search.brave.com/qUC0y438yWzsdMBjO4ewR8cuvD-7l8zwlTA3WT6vh98/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJiYXQuY29t/L2ltZy8zNjIxMjct/emF5bi1tYWxpay1w/aG90by0yMC1vZi00/NC1waWNzLXdhbGxw/YXBlci1waG90by5q/cGc");
+    background-size: cover;
+    margin-top: 50px;
+}
+.story7 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 3px solid red;
+    border-radius: 50%;
+    background-image: url("https://imgs.search.brave.com/v1XKKlg7x2gzngct0mcHLq-IPoObLRzjn75SN9Cb9H4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzM1L2Uz/LzY2LzM1ZTM2NmMz/ZWMzZGIyOTQ0NWUy/NGQyZDc4NjRhYzli/LmpwZw");
+    background-size: cover;
+    margin-top: 50px;
+}
+.stories {
+    display: flex;
+    gap: 35px;
+    margin-left: 35px;
+}
+/* section3 */
+ .usernames {
+    display: flex;
+ }
+ .username1 {
+    margin-left: 25px;
+    margin-top:  15px;
+    font-size:1.3rem;
+ }
+ .username2 {
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+ }
+ .username3 {
+    margin-left: 45px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+ }
+ .username4 {
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+ }
+ .username5 {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+ }
+ .username6 {
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+ }
+ .username7 {
+    margin-left: 45px;
+    margin-top: 15px;
+    font-size: 1.3rem;
+ }
+ /* section4 */
+ .usercontent {
+    height: 50px;
+    width: 50px;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-left: 25px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-image: url("https://pbs.twimg.com/profile_images/1562753500726976514/EPSUNyR3_400x400.jpg");
+    background-size: cover;
+ }
+ .user {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 12px;
+    font-size: 1.5rem;
+    color: black;
+ }
+ .accountsection {
+    display: flex;
+ }
+ .optionicon {
+    margin-top: 30px;
+    margin-left: 50%;
+    font-size: 1.5rem;
+ }
+ .optionicon:hover{
+    color:blue;
+ }
+ img {
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+ /* section5 */
+ .reactoptions {
+    display: flex;
+    gap: 45px;
+    margin-top: 25px;
+    font-size: 20px;
+    color : black;
+ }
+ .reactoptions:active {
+    color: red;
+ }
+ /* section6 */
+ .likes {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+ }
+ /* section7 */
+ .comments {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+ }
+ /* section8 */
+ .posttime {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+ }
+/* section9 */
+.instaicons {
+    display: flex;
+    margin-top: 20px;
+    gap: 70px;   
+}
+.homeicon {
+    margin-left: 30px;
+}
+.searchicon {
+    margin-left: 30px;
+}
+.reelicon {
+    margin-left: 30px;
+}
+.settingsicon {
+    margin-left: 30px;
+}
+.notificationicon {
+    margin-left: 30px;
+}
+.profileicon {
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    background-image: url("https://imgs.search.brave.com/_ryzcCBVW4Ikkt6X095kutIPjMupFiJ889IjK_k-WDo/rs:fit:860:0:0/g:ce/aHR0cDovL3d3dy53/aGF0c2FwcGltYWdl/cy5pbi93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8xMi9wcm9m/aWxlLXBpY3R1cmUt/Ym95LWF0dGl0dWRl/LmpwZw");
+    background-size: cover;
+    margin-left: 50px;
+}
+/* section9 */
+/* adding extra styling options  */
+ .instaicons:hover {
+    color: blue;
+}
