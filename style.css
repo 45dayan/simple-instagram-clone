@@ -5,8 +5,7 @@
 }
 .navbar {
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
+    margin: 50px;
 }
 .cameraicon {
     color: black;
